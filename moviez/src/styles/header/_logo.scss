@@ -1,0 +1,23 @@
+.logo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+
+  p {
+    color: white;
+    font-size: 1.8em;
+
+    span {
+      color: $colorlogo;
+      font-size: 32px;
+      
+    }
+  }
+
+  .logo{
+    color: $colorlogo;
+    font-size: 2.8em;
+  }
+}
